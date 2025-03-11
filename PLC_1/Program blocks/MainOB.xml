@@ -45,11 +45,18 @@
     <Call UId="21">
       <CallInfo Name="Block_1" BlockType="FC" />
     </Call>
+    <Call UId="22">
+      <CallInfo Name="Block_1" BlockType="FC" />
+    </Call>
   </Parts>
   <Wires>
-    <Wire UId="22">
+    <Wire UId="23">
       <Powerrail />
       <NameCon UId="21" Name="en" />
+    </Wire>
+    <Wire UId="24">
+      <NameCon UId="21" Name="eno" />
+      <NameCon UId="22" Name="en" />
     </Wire>
   </Wires>
 </FlgNet></NetworkSource>
